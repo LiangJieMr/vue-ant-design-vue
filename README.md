@@ -1,24 +1,36 @@
-# antd-demo
+# nlp
 
-## Project setup
+## 安装依赖
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### 启动
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### 打包
 ```
 yarn build
 ```
 
-### Lints and fixes files
+### 目录结构
 ```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+.
+├── babel.config.js
+├── package.json
+├── public
+├── src
+│   ├── App.vue
+│   ├── assets  静态资源
+│   ├── components  公共组建
+│   ├── libs    工具
+│   │   ├── api.js
+│   │   └── http.js axios配置
+│   ├── main.js
+│   ├── router  路由配置
+│   ├── store   vuex配置
+│   └── views   页面文件
+├── vue.config.js
+└── yarn.lock
